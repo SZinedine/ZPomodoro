@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>audio/alarm.mp3</file>
+        <file>style/style.css</file>
+        <file>font/Segment7Standard.otf</file>
+        <file>font/ledfont-sharp-Regular.otf</file>
+        <file>font/LCDAT&amp;TPhoneTimeDate.ttf</file>
+    </qresource>
+</RCC>
