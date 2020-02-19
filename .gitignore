@@ -2,4 +2,4 @@ ZPomodoro.pro.user
 .qmake.stash
 Makefile
 ZPomodoro
-build
+build*

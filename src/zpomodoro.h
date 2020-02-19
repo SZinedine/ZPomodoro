@@ -15,17 +15,6 @@
 #include "ztreewidget.h"
 
 
-/* steps that this program makes
- * 1. hit the start button and start() will be triggered.
- * 2. start(): call makeOperation() if busy(false) and iterationsSpinbox value is >0
- * 3. makeOperation(): iterate through the Items in the TreeWidget
- * 		- if Item::waiting, bring its time value into TimeLabel and start counting()
- * 		- if not, it means that the cycle has ended. reset everything and launch from the beginning
- * 4. counting(): verify if busy(true) to substract one second every second with QTimer::start(999)
- * 		once the second is done, QTimer sends the timeout() signal. everytime it does, it calls counting() again.
- */
-
-
 class ZPomodoro : public QMainWindow
 {
     Q_OBJECT
