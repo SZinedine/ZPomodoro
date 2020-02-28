@@ -3,3 +3,6 @@ ZPomodoro.pro.user
 Makefile
 ZPomodoro
 build*
+*.o
+moc_*
+qrc_*
